@@ -9,5 +9,5 @@ for (const line of result.split("\n")) {
 }
 
 if (ids.length !== 0) {
-  await $`docker rmi ${ids}`;
+  await $`docker rmi -f ${ids}`;
 }
