@@ -3,5 +3,5 @@
 
 # インストール
 ```sh
-deno install -A https://raw.githubusercontent.com/bigdragon0610/rmi/main/rmi.ts
+deno install -Ag https://raw.githubusercontent.com/bigdragon0610/rmi/main/rmi.ts
 ```
